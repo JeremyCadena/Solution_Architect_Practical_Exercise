@@ -1,0 +1,134 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0" version="28.2.5">
+  <diagram name="Página-1" id="IhaGBrwqfcMUPbBzOlR1">
+    <mxGraphModel dx="1004" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="casUEjv80uJRFfRJVMtn-1" value="Sistema de Banca por Internet Empresa BP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="210" width="1110" height="1010" as="geometry">
+            <mxRectangle x="40" y="360" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-25" value="Transfers Service" style="swimlane;startSize=20;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="casUEjv80uJRFfRJVMtn-1">
+          <mxGeometry x="270" y="40" width="790" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Container:&lt;/b&gt; Java &amp;amp; Spring Boot&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="casUEjv80uJRFfRJVMtn-25">
+          <mxGeometry x="270" y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-27" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;Descripción:&lt;/b&gt;&amp;nbsp;&lt;/font&gt;Orquesta las&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;transferencias&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;monetarias y&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;se conecta&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;con pasarelas de pago.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="casUEjv80uJRFfRJVMtn-25">
+          <mxGeometry x="160" y="65" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-38" value="&lt;b&gt;Transfer API Controller&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Expone los endpoints REST (&lt;code style=&quot;&quot;&gt;/transfers&lt;/code&gt;, &lt;code style=&quot;&quot;&gt;/history&lt;/code&gt;, etc.). Responsable de recibir las peticiones HTTP, validar la entrada (DTOs) y delegar a la lógica de servicio. Usa seguridad basada en Tokens JWT.&lt;/font&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="casUEjv80uJRFfRJVMtn-1">
+          <mxGeometry x="319" y="255" width="182" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="casUEjv80uJRFfRJVMtn-1" source="casUEjv80uJRFfRJVMtn-39" target="casUEjv80uJRFfRJVMtn-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="629" y="435" />
+              <mxPoint x="440" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="casUEjv80uJRFfRJVMtn-1" source="casUEjv80uJRFfRJVMtn-39" target="casUEjv80uJRFfRJVMtn-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="casUEjv80uJRFfRJVMtn-1" source="casUEjv80uJRFfRJVMtn-39" target="casUEjv80uJRFfRJVMtn-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="629" y="575" />
+              <mxPoint x="530" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="casUEjv80uJRFfRJVMtn-1" source="casUEjv80uJRFfRJVMtn-39" target="casUEjv80uJRFfRJVMtn-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="555" />
+              <mxPoint x="774" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-39" value="&lt;b&gt;Transfer Service Logic&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Contiene la lógica de negocio principal. Orquesta el proceso de una transferencia: verifica reglas de negocio, coordina con otros componentes y maneja las excepciones.&lt;/font&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="casUEjv80uJRFfRJVMtn-1">
+          <mxGeometry x="574" y="255" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-40" value="&lt;b&gt;Account Service Client&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;font style=&quot;font-size: 10px;&quot;&gt;Un cliente resiliente que se comunica con el &lt;code style=&quot;&quot;&gt;Accounts Service&lt;/code&gt; para verificar saldos y debitar fondos.&lt;/font&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="casUEjv80uJRFfRJVMtn-1">
+          <mxGeometry x="349" y="458.75" width="180" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-42" value="&lt;b&gt;Payment Gateway Client&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Componente responsable de la comunicación con la &lt;code style=&quot;&quot;&gt;Pasarela de Pagos Interbancarios&lt;/code&gt; externa. Adapta las peticiones de nuestro sistema al formato requerido por la pasarela.&lt;/font&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="casUEjv80uJRFfRJVMtn-1">
+          <mxGeometry x="669" y="585" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-43" value="&lt;b&gt;Transfer Repository&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Responsable de persistir y consultar el estado de las transferencias.&lt;/font&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="casUEjv80uJRFfRJVMtn-1">
+          <mxGeometry x="869" y="470" width="162" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="casUEjv80uJRFfRJVMtn-1" source="casUEjv80uJRFfRJVMtn-44" target="casUEjv80uJRFfRJVMtn-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-55" value="Publica eventos de&amp;nbsp;&lt;div&gt;auditoría en&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="casUEjv80uJRFfRJVMtn-54">
+          <mxGeometry x="-0.3842" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-74" value="[Kafka Protocol]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="casUEjv80uJRFfRJVMtn-54">
+          <mxGeometry x="0.1771" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-44" value="&lt;b&gt;Audit Event Producer&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Encargado de crear y publicar eventos de dominio.&lt;/font&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="casUEjv80uJRFfRJVMtn-1">
+          <mxGeometry x="449" y="605" width="162" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="casUEjv80uJRFfRJVMtn-1" source="casUEjv80uJRFfRJVMtn-38" target="casUEjv80uJRFfRJVMtn-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="casUEjv80uJRFfRJVMtn-1" source="casUEjv80uJRFfRJVMtn-43" target="casUEjv80uJRFfRJVMtn-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="949" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-73" value="[JDBC]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="casUEjv80uJRFfRJVMtn-52">
+          <mxGeometry x="-0.3592" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-53" value="&lt;b&gt;Bus de Eventos&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-weight: 700;&quot; face=&quot;Times New Roman&quot;&gt;Container:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Apache Kafka on AWS MSK&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;Descripción:&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;Plataforma de streaming para la comunicación asíncrona y la auditoría basada en eventos.&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="casUEjv80uJRFfRJVMtn-1">
+          <mxGeometry x="457" y="785" width="146" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-59" value="&lt;b&gt;Base de Datos Principal&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-weight: 700; font-size: 10px;&quot; face=&quot;Times New Roman&quot;&gt;Container:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 10px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;PostgreSQL on AWS RDS&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b&gt;Descripción:&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font size=&quot;1&quot;&gt;Almacena datos relacionales como perfiles de usuario y estado de transacciones&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="casUEjv80uJRFfRJVMtn-1">
+          <mxGeometry x="869" y="800" width="162" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-66" value="Accounts Service" style="swimlane;startSize=20;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="casUEjv80uJRFfRJVMtn-1">
+          <mxGeometry x="40" y="415" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-67" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Container:&lt;/b&gt; Java &amp;amp; Spring Boot&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="casUEjv80uJRFfRJVMtn-66">
+          <mxGeometry x="7.5" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-68" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Descripción:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Expone datos de&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;cuentas y movimientos&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;del cliente&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="casUEjv80uJRFfRJVMtn-66">
+          <mxGeometry x="10" y="85" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="casUEjv80uJRFfRJVMtn-1" source="casUEjv80uJRFfRJVMtn-40" target="casUEjv80uJRFfRJVMtn-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="490" />
+              <mxPoint x="285" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-72" value="[JSON/HTTPS]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="casUEjv80uJRFfRJVMtn-69">
+          <mxGeometry x="-0.0874" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-70" value="&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Pasarela de Pagos Interbancarios&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Descripción: &lt;span style=&quot;font-weight: normal;&quot;&gt;Sistema externo que&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;procesa las transferencias de dinero&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;hacia otros bancos.&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2689" y="1250" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="casUEjv80uJRFfRJVMtn-42" target="casUEjv80uJRFfRJVMtn-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="casUEjv80uJRFfRJVMtn-75" value="[JSON/HTTPS]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="casUEjv80uJRFfRJVMtn-71">
+          <mxGeometry x="0.3407" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
