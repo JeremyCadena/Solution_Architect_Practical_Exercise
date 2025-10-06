@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0" version="28.2.5">
+  <diagram name="Página-1" id="IhaGBrwqfcMUPbBzOlR1">
+    <mxGraphModel dx="2211" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hM6ag936fxKGzU8oXb9c-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hM6ag936fxKGzU8oXb9c-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="290" as="sourcePoint" />
+            <mxPoint x="134" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-15" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Obtiene datos de cuenta&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px;&quot;&gt;y&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;movimientos de&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM6ag936fxKGzU8oXb9c-14">
+          <mxGeometry x="-0.1404" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.314;exitY=0.973;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hM6ag936fxKGzU8oXb9c-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="380.0000000000001" as="sourcePoint" />
+            <mxPoint x="380" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-28" value="Envía&amp;nbsp;&lt;div&gt;información&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM6ag936fxKGzU8oXb9c-25">
+          <mxGeometry x="-0.1921" y="-4" relative="1" as="geometry">
+            <mxPoint x="3" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hM6ag936fxKGzU8oXb9c-1" target="hM6ag936fxKGzU8oXb9c-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="229" y="350" />
+              <mxPoint x="229" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-35" value="Procesa transferencias&amp;nbsp;&lt;div&gt;interbancarias a través de&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM6ag936fxKGzU8oXb9c-34">
+          <mxGeometry x="0.0353" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Sistema de Banca por Internet&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;Empresa BP&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Descripción:&lt;/b&gt; Permite a los clientes de BP gestionar sus finanzas personales de forma segura a través de&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;la web y el móvil.&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#60A917,#FFD966);fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="324" y="200" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hM6ag936fxKGzU8oXb9c-2" target="hM6ag936fxKGzU8oXb9c-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-37" value="Gestiona sus finanzas&amp;nbsp;&lt;div&gt;por medio de&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM6ag936fxKGzU8oXb9c-36">
+          <mxGeometry x="-0.1786" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Cliente Bancario&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Descripción:&lt;/b&gt; Cliente final del banco.&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#1BA1E2,#A9C4EB);fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="312" y="40" width="204" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Plataforma Core Bancaria&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Descripción:&lt;/b&gt; Sistema principal del banco. Provee la información básica del cliente, saldos y movimientos de cuentas. Sistema de registro.&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#1BA1E2,#A9C4EB);fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="245" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Sistema de Información Complementario&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Descripción:&lt;/b&gt; Sistema legado que provee datos detallados y adicionales del cliente.&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#1BA1E2,#A9C4EB);fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="690" y="430" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Servicio de Verificación de Identidad&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Descripción:&lt;/b&gt; Proveedor externo especializado en KYC (Know Your Customer) que valida la identidad del usuario mediante reconocimiento facial y análisis de documentos durante el onboarding.&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#1BA1E2,#A9C4EB);fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="690" y="240" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Pasarela de Pago Interbancarios&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Descripción:&lt;/b&gt; Sistema externo que procesa las transferencias de dinero hacia otros bancos.&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#1BA1E2,#A9C4EB);fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="430" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Proveedor de Notificaciones&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Descripción:&lt;/b&gt; Conjunto de servicios externos para el envío de notificaciones por Email, SMS y Push a los clientes.&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#1BA1E2,#A9C4EB);fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="279" y="555" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.857;exitY=0.838;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hM6ag936fxKGzU8oXb9c-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490.2" y="350" as="sourcePoint" />
+            <mxPoint x="690" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="351" />
+              <mxPoint x="560" y="480" />
+              <mxPoint x="690" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-21" value="Obtiene datos&amp;nbsp;&lt;div&gt;detallados del cliente de&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM6ag936fxKGzU8oXb9c-18">
+          <mxGeometry x="0.0185" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.643;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.598;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hM6ag936fxKGzU8oXb9c-13" target="hM6ag936fxKGzU8oXb9c-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440.54" y="552.12" as="sourcePoint" />
+            <mxPoint x="439.99999999999983" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-29" value="Envió de notificaciones&amp;nbsp;&lt;div&gt;a los clientes&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM6ag936fxKGzU8oXb9c-26">
+          <mxGeometry x="-0.4844" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hM6ag936fxKGzU8oXb9c-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM6ag936fxKGzU8oXb9c-41" value="Verifica la identidad de&amp;nbsp;&lt;div&gt;nuevos clientes usando&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM6ag936fxKGzU8oXb9c-40">
+          <mxGeometry x="-0.2043" y="1" relative="1" as="geometry">
+            <mxPoint x="12" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
